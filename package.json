@@ -1,0 +1,22 @@
+{
+  "name": "web-rfunc",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Web adapter for rfunc layer",
+  "main": "./app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nyakovlev/web-rfunc.git"
+  },
+  "author": "Nikita Ioukovlev",
+  "license": "SEE LICENSE IN ./LICENSE",
+  "dependencies": {
+    "node-web": "file:../node-web",
+    "rfunc": "file:../rfunc",
+    "rfunc-ws": "file:../rfunc-ws"
+  }
+}
